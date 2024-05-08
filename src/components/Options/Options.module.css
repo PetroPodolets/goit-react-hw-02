@@ -1,0 +1,33 @@
+.button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    border: none;
+    background: #4E75FF;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.green {
+    background: green;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: orange;
+}
+
+.divButton {
+    width: 535px;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+}

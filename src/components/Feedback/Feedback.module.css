@@ -1,0 +1,76 @@
+.list {
+    width: 238px;
+    background: #a2b6ff;
+    border: 2px solid #4E75FF;
+    color: rgb(53, 37, 37);
+    padding: 4px 8px;
+    border-radius: 8px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 535px;
+    margin: 16px auto 0 auto;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.moods {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 8px;
+    margin: 0;
+}
+
+.descr {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.space {
+    width: 122px;
+    box-sizing: border-box;
+    background: #d6b9fc;
+    border: 2px solid #be8dfd;
+    padding: 4px 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.green {
+    background: green;
+    border-radius: 3px;
+    color: white;
+}
+
+.red {
+    background: red;
+    border-radius: 3px;
+    color: white;
+}
+
+.yellow {
+    background: orange;
+    border-radius: 3px;
+    color: white;
+}
